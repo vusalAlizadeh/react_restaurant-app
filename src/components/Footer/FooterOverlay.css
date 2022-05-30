@@ -1,0 +1,15 @@
+.footer_overlay{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer_overlay-black{
+    height: 25%;
+    background-color: var(--color-black);
+}
+.footer_overlay-bg{
+    height: 75%;
+}

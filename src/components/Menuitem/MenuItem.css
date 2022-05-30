@@ -1,0 +1,25 @@
+.app__menuItem{
+    margin-bottom: 1.5rem;
+}
+.app__menuItem-header{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.app__menuItem-name {
+    flex:1;
+}
+.app__menuItem-name p{
+    color:var(--color-golden)
+}
+.app__menuItem-dash{
+    height: 1px;
+    width: 90px;
+    background-color: var(--color-golden);
+    margin-right: 1rem;
+}
+
+.app__menuItem-tags p{
+    color:var(--color-grey);
+}
+
